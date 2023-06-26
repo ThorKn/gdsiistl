@@ -1,3 +1,18 @@
+# gdsiistl for IHP130 open-source PDK adaption:
+This version of gdsiistl is a modified fork of the SKY130 version from mbalestrini (https://github.com/mbalestrini/gdsiistl). This version now works with the IHP130 open-source PDK. The IHP130 PDK, the documentation and the layer/datatype information can be found here:
+https://github.com/IHP-GmbH/IHP-Open-PDK
+
+To see an example, there is the GDS of the sg13g2_inv_1.gds (Inverter) in the example folder.
+
+Usage:
+
+Install the python requirements (see below in the original README). Then:
+```python gdsiistl.py example/sg13g2_inv_1.gds```
+
+A bunch of stl files for the layers get created.
+
+# gdsiistil for SKY130 PDK README file:
+
 This version of gdsiistl is adapted to work with the GDS files generated for the SkyWater SKY130 PDK
 
 Basically the `datatype` was added to be able to identify the different layers.
@@ -7,7 +22,7 @@ Here's a reference of the SKY130 GDS layer/datatype ids in case you need to add 
 https://skywater-pdk.readthedocs.io/en/main/rules/layers.html#gds-layers-information
 
 
-Original gdsiistl README file:
+# Original gdsiistl README file:
 
 # gdsiistl
 
